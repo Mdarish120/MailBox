@@ -7,6 +7,8 @@ import { signin } from '../../features/userSlice';
 
 const Login = () => {
   
+
+  
   const dispatch =useDispatch();
 
   const login=()=>{
@@ -23,6 +25,8 @@ const Login = () => {
      alert(err);
    })
   }
+
+  console.log("checking")
  
   return (
     <div className={style.loginWrapper}>
