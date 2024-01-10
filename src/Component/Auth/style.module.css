@@ -1,0 +1,32 @@
+
+
+.loginWrapper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 6%;
+}
+
+.login{
+    background-color: whitesmoke;
+    padding: 100px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gmail__login{
+    margin-top: 2rem;
+    background-color: #4385f5;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    text-align: upppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    outline: 0;
+    cursor: pointer;
+}

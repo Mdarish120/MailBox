@@ -1,0 +1,46 @@
+/* style.module.css */
+.header {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+  
+  }
+  
+  .header_left {
+    display: flex;
+    align-items: center;
+    /* Add additional styles for .header_left */
+  }
+  
+  .header_middle {
+    display: flex;
+    flex: 0.7;
+  }
+  
+  .search_mail {
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex: 0.7;
+  }
+
+  .header_middle input{
+    border: 0;
+    outline: none;
+    background:transparent;
+    flex: 1;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .header_right{
+    display: flex;
+    align-items: center;
+  }
+
+
+  

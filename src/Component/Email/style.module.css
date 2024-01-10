@@ -1,0 +1,139 @@
+
+.emailList{
+    display: flex;
+    flex-direction: column;
+}
+.email_setting{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.email_setting svg{
+  
+    font-size: 18px;
+}
+
+.email_setting_right{
+    display: flex;
+    align-items: center;
+}
+
+.emailType{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.emailType >.emailOption{
+    display: flex;
+    align-items: center;
+    min-width: 230px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-bottom: 3px solid white;
+
+}
+
+.emailType >.emailOption svg{
+    font-size: 20px;
+    color:gray;
+    margin-right: 10px;
+
+}
+
+.emailType >.emailOption p{
+     
+    font-size: 15px;
+}
+
+.emailType >.emailOption:hover{
+    background-color: whitesmoke;
+}
+
+.emailBody{
+    
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+    padding: 0 10px;
+    height: 40px;
+    margin-top: 6%;
+  
+}
+
+.emailBody :hover{
+    box-shadow: 2px 2px 4px whitesmoke;
+    cursor: pointer;
+}
+
+
+.emailBody__left{
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  flex:20%;
+}
+
+.emailBody__left svg{
+    font-size: 18px;
+    color: gray;
+    margin-right: 15px;
+}
+
+
+.emailBody__right{
+    
+    display: flex;
+  align-items: center;
+  min-width: 300px;
+  flex:10%;
+  justify-content: flex-end;
+}
+
+
+.emailBody__middle{
+     
+    display: flex;
+  align-items: center;
+  flex:90%;
+}
+.emailBody__middle p{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+   
+}
+
+.details{
+ 
+    border:  4px solid whitesmoke;
+    margin-top: 7%;
+    padding: 2%;
+    height: 100%;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+.details h2{
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 0.8rem;
+}
+
+.details__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 2%;
+}
+
+.details__body{
+
+    padding: 1%;
+}
+
+
